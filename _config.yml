@@ -1,10 +1,10 @@
 #------------------------
 # Header config
-title: theme-kaze demo
-author: theme-kaze
-logo_img: https://demo.theme-kaze.top/img/Kaze.png # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
-author_img: https://demo.theme-kaze.top/img/Kaze.png
-author_description: designed by theme-kaze
+title: LuoGuoHua Blogs
+author: luoguohua
+logo_img: /img/avatar.png # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
+author_img: /img/avatar.png
+author_description: 罗国华的个人笔记博客
 #------------------------
 # Navbar config
 #------------------------
@@ -52,7 +52,7 @@ copyright:
   style: warning # the style uses note warning | danger | primary | info | success
 
 search:
-  enable: false
+  enable: true
   path: search.json
   field: posts
   searchContent: true
@@ -83,7 +83,7 @@ footer:
   # pv / uv statistics config
   #------------------------
   statistics:
-    enable: false
+    enable: true
     type: busuanzi # now version only supports busuanzi
     pv:
       enable: true
@@ -134,6 +134,7 @@ comment:
     distractionFreeMode: false
     # en | zh-CN | zh-TW
     language: navigator.language || navigator.userLanguage
+    #language: zh-CN
     labels: ['Gitalk']
     perPage: 10
   livere:
